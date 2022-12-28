@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "type": "apis"
+    },
+    "redis1": {
+      "type": "redis",
+      "connectionId": "CacheConnection"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:TransactionProcessorContext",
+      "dynamicId": null
+    }
+  }
+}

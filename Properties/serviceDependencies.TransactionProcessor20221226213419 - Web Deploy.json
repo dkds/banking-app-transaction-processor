@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://k2284425-sapm-cw1.azure-api.net/transaction-processor",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/K2284425-SAPM-CW1/apis/transaction-processor",
+      "type": "apis.azure"
+    },
+    "redis1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Cache/Redis/k2284425-sapm-cw1",
+      "type": "redis.azure",
+      "connectionId": "CacheConnection"
+    },
+    "mssql1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/k2284425-sapm-cw1-transactionprocessor/databases/transaction-data",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:TransactionProcessorContext",
+      "dynamicId": null
+    }
+  }
+}

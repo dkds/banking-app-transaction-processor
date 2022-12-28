@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2022-12-28T06:12:26.1885909Z"
+    },
+    "redis1": {
+      "restored": true,
+      "restoreTime": "2022-12-28T06:20:06.0028646Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-12-28T06:23:17.6998003Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ec66132f-3ff8-498a-bc09-dcf94a184aa0"
+    },
+    "redis1.resourceGroupName": {
+      "Name": "redis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CommonCacheResourceGroup"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "TransactionProcessorResourceGroup"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CommonAPIManagerResourceGroup"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ec66132f-3ff8-498a-bc09-dcf94a184aa0"
+    },
+    "redis1.subscriptionId": {
+      "Name": "redis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ec66132f-3ff8-498a-bc09-dcf94a184aa0"
+    }
+  }
+}

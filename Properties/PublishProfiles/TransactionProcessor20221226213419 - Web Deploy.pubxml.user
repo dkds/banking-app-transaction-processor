@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAm65ZuInqqUeTaRVcaUz4VAAAAAACAAAAAAAQZgAAAAEAACAAAAARn+IybpkhATV86tCd9f5t/wEA1AovWxltKIQe5JDCTAAAAAAOgAAAAAIAACAAAAA+RFwIMOpFTj3KMojf/9vx4M9zSnQe821hL9r6Lx//aIAAAACTWS4JSR49y2gRxxVjiVCtUmFBz35s2lV6W+wgQdmP5gD5zZ4hCq53qqqb6HndZBx7G3Swtj9/uM1aYEcpXtVsbs2PAkNKDwNc3tU9JRNk3cCwwv9jrgdFSZU2hKZNAHE3uvdLWz95g14cqwZ76+XWBtN7XxbHWE2VVQ1lPnSIe0AAAAB9guunfH2P/u1JfERQn2aRAJf2l4ZD6dXLBA3NtR8auGvhH4AzXxOQ0qioxVZMtcgIrhGQo1VvntySQu2nI9Eu</EncryptedPassword>
+    <History>True|2022-12-28T06:36:10.8090594Z;True|2022-12-28T11:56:19.0921549+05:30;True|2022-12-28T11:44:56.9175858+05:30;True|2022-12-28T03:12:32.5231270+05:30;True|2022-12-28T03:10:01.1247069+05:30;True|2022-12-28T03:05:21.2051992+05:30;True|2022-12-28T03:03:08.8108624+05:30;True|2022-12-28T02:55:57.1863002+05:30;True|2022-12-27T10:38:04.3136080+05:30;True|2022-12-26T22:01:56.0341323+05:30;True|2022-12-26T21:58:02.1092041+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="TransactionProcessor.Data.TransactionProcessorContext">
+      <Value>Server=tcp:k2284425-sapm-cw1-transactionprocessor.database.windows.net,1433%3bInitial Catalog=transaction-data%3bPersist Security Info=False%3bUser ID=k2284425-sapm-cw1%3bPassword=bZk%2533zK8L&amp;EPtpP%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
